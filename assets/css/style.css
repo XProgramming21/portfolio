@@ -369,9 +369,7 @@ img,svg{
 }
 
 .skills__data{
-    text-align: start;
-    justify-content: center; 
-    align-items: center;
+    text-align: center;
     
 
     
@@ -387,9 +385,9 @@ img,svg{
 
 .skills__content{
     grid-template-columns: repeat(2, max-content);
-    column-gap: 2rem;
+    column-gap: 4rem;
     justify-content: center; 
-    align-items: center;
+    align-items: baseline;
     
 }
 
@@ -647,7 +645,7 @@ img,svg{
     }
     .skills__content{
         grid-template-columns: max-content;
-        row-gap: 8rem;
+        row-gap:1rem;
     }
     .services__card{
         padding-block: 1.5rem;
