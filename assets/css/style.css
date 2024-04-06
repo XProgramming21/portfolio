@@ -369,7 +369,11 @@ img,svg{
 }
 
 .skills__data{
-    text-align: center;
+    text-align: start;
+    justify-content: center; 
+    align-items: center;
+    
+
     
 }
 .skills__description{
@@ -383,9 +387,10 @@ img,svg{
 
 .skills__content{
     grid-template-columns: repeat(2, max-content);
-    column-gap: 4rem;
+    column-gap: 2rem;
     justify-content: center; 
-    align-items: baseline;
+    align-items: center;
+    
 }
 
 .skills__group{
@@ -642,7 +647,7 @@ img,svg{
     }
     .skills__content{
         grid-template-columns: max-content;
-        row-gap: 1rem;
+        row-gap: 8rem;
     }
     .services__card{
         padding-block: 1.5rem;
